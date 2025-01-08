@@ -1,0 +1,50 @@
+Features:-
+1.Book Inventory Management:
+* Add, view, update, and delete books from the inventory.
+2.User Management:
+* Add, view, update, and delete user information.
+3.Book Issuance and Returns:
+* Issue books to users and record the details.
+* Mark books as returned.
+4.Issued Book Details:
+* View all issued books with specific details like:
+* Issue date
+* Return date
+5.Formatted Table Outputs:
+* Display data in structured tables for better readability.
+
+Technologies Used in the Project:-
+1.Programming Language:
+  * Java: Utilizes core Java concepts and Java Database Connectivity (JDBC) for database interaction.
+2.Database:
+  * MySQL: For efficient and reliable database management, storing information about books, users, and issued/returned books.
+3.Development Tools (IDE):
+  * Eclipse or IntelliJ IDEA: Integrated Development Environments (IDEs) for coding, debugging, and managing the development workflow.
+
+How to Run the Application:-
+1.Clone the Repository:
+  *  Clone the project repository to your local machine.
+2.Import the Project into Your IDE:
+  * Open your favorite IDE (Eclipse or IntelliJ IDEA).
+  * Import the project as a Maven/Gradle/Java project (depending on the setup).
+  * Ensure all dependencies are correctly loaded.
+3.Configure the MySQL Database:
+  * Open the DBConnection class in the project.
+  *  Update the database configuration parameters:
+      String url = "jdbc:mysql://<hostname>:<port>/<database_name>";
+      String username = "<your_username>";
+      String password = "<your_password>";
+  * Ensure the database schema is created and matches the project requirements. You may find SQL scripts in the repository to set up tables.
+4.Run the Application:
+  * Locate the main class (LibrarySystem or equivalent).
+  * Right-click the class in your IDE and select Run As > Java Application.
+  * The application will start, allowing you to manage books, users, and issued/returned books.
+
+Database Design:-
+1. Books Table
+  * Stores details about the books available in the library.
+2. Users Table
+  * Stores information about the library users.
+3. IssuedBooks Table
+  * Tracks information about issued books and their return status.
+
